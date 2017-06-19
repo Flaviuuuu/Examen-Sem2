@@ -4,8 +4,8 @@
 		height: 150px;
 	 background: linear-gradient(yellow, white);}
 
-	footer-shadow  .p1 {
-    text-shadow: 2px 2px #FF0000;
+.footer-shadow  p {
+    text-shadow: 1px 1px grey;
 }
 
  thead {
@@ -18,13 +18,13 @@
 	 
 	 text-align:center;
  }
-.img-responsive {
+.img-responsive1 {
 
 	transition: all 0.3s ease-in-out 0s;
 
 	}
 	
-.img-responsive:hover
+.img-responsive1:hover
 {
     cursor: default;
     transform: rotate(320deg);
@@ -34,4 +34,9 @@
 .btn {
 	
  border-radius: 25px;
+}
+
+.center {
+	text-align: center;
+	
 }
