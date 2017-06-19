@@ -27,7 +27,7 @@
 .img-responsive1:hover
 {
     cursor: default;
-    transform: rotate(320deg);
+    transform: rotate(360deg);
     transition: all 0.3s ease-in-out 0s;
 }
 

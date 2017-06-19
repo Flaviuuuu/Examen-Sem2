@@ -33,6 +33,7 @@
 	 <nav class="navbar navbar-default">
 	 
         <div class="container-fluid">
+		
 		<div id="grad1">
             <div class="navbar-header">
 			<a class="navbar-brand">
@@ -56,25 +57,41 @@
 		</div>
     </nav>
 	<div class="container-fluid">
+    <div class="row">
+        <div class="container-fluid col-md-12">
+        <div class="col-md-6"><h3>Shopping cart</h3></div>
+        
+    </div>
+    </div>
+    </div>
+	<div class="container-fluid">
+	<div class="row">
+	 <div class="container-fluid col-lg-12 col-md-12">
+	 </div>
+    </div>
+    </div>
 	<table id="cart" class="table table-hover table-condensed">
     				<thead>
 						<tr>
-							<th style="width:50%">Product</th>
+							<th style="width:50%">Item</th>
 							<th style="width:10%">Price</th>
-							<th style="width:8%">Quantity</th>
-							<th style="width:22%" class="text-center">Subtotal</th>
+							<th style="width:8%">Qty</th>
+							<th style="width:22%" class="text-center">Total</th>
 							<th style="width:10%"></th>
 						</tr>
+						
 					</thead>
 					<tbody>
 						<tr>
 							<td data-th="Product">
 								<div class="row">
-									<div class="col-sm-2 hidden-xs"><img src="img.png" alt="" img class="img-circle"/></div>
-									<div class="col-sm-10">
+									<div class="col-sm-12">
+									<div class="col-sm-2"><img src="img.png" alt="" img class="img-circle"/></div>
+									<div class="col-sm-10 hidden-xs">
 										<h4 class="nomargin">T-Shirt / Item Name</h4>
 										<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
 									</div>
+								</div>
 								</div>
 							</td>
 							<td data-th="Price">$88.99</td>
@@ -84,7 +101,8 @@
 							<td data-th="Subtotal" class="text-center">88.99</td>
 							<td class="actions" data-th="">
 
-								<button class="btn btn-danger btn-sm"><i class="fa fa-window-close"></i></button>								
+								<button class="btn btn-danger btn-sm"><i class="fa fa-window-close"></i></button>	
+							
 							</td>
 						</tr>
 					</tbody>
@@ -104,8 +122,9 @@
 						<tr>
 							<td data-th="Product">
 								<div class="row">
-									<div class="col-sm-2 hidden-xs"><img src="img.png" alt="" img class="img-circle"/></div>
-									<div class="col-sm-10">
+									<div class="col-sm-12">	
+									<div class="col-sm-2"><img src="img.png" alt="" img class="img-circle"/></div>
+							
 										<h4 class="nomargin">T-Shirt / Item Name</h4>
 										<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
 									</div>
@@ -115,7 +134,7 @@
 							<td data-th="Quantity">
 								<input type="number" class="form-control text-center" value="1">
 							</td>
-							<td data-th="Subtotal" class="text-center">88.99</td>
+							<td data-th="Subtotal" class="text-center">$88.99</td>
 							<td class="actions" data-th="">
 
 								<button class="btn btn-danger btn-sm"><i class="fa fa-window-close"></i></button>								
@@ -125,9 +144,10 @@
 					<tbody>
 						<tr>
 							<td data-th="Product">
-								<div class="row">
-									<div class="col-sm-2 hidden-xs"><img src="img.png" alt="" img class="img-circle"/></div>
-									<div class="col-sm-10">
+									<div class="row">
+									<div class="col-sm-12">	
+									<div class="col-sm-2"><img src="img.png" alt="" img class="img-circle"/></div>
+							
 										<h4 class="nomargin">T-Shirt / Item Name</h4>
 										<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
 									</div>
@@ -137,7 +157,7 @@
 							<td data-th="Quantity">
 								<input type="number" class="form-control text-center" value="1">
 							</td>
-							<td data-th="Subtotal" class="text-center">88.99</td>
+							<td data-th="Subtotal" class="text-center">$88.99</td>
 							<td class="actions" data-th="">
 
 								<button class="btn btn-danger btn-sm"><i class="fa fa-window-close"></i></button>								
@@ -147,9 +167,10 @@
 					<tbody>
 						<tr>
 							<td data-th="Product">
-								<div class="row">
-									<div class="col-sm-2 hidden-xs"><img src="img.png" alt="" img class="img-circle"/></div>
-									<div class="col-sm-10">
+									<div class="row">
+									<div class="col-sm-12">	
+									<div class="col-sm-2"><img src="img.png" alt="" img class="img-circle"/></div>
+							
 										<h4 class="nomargin">T-Shirt / Item Name</h4>
 										<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
 									</div>
@@ -159,7 +180,7 @@
 							<td data-th="Quantity">
 								<input type="number" class="form-control text-center" value="1">
 							</td>
-							<td data-th="Subtotal" class="text-center">88.99</td>
+							<td data-th="Subtotal" class="text-center">$88.99</td>
 							<td class="actions" data-th="">
 
 								<button class="btn btn-danger btn-sm"><i class="fa fa-window-close"></i></button>								
@@ -168,12 +189,14 @@
 					</tbody>	
 					<tfoot>
 						<tr class="visible-xs">
-							<td class="text-center"><strong>Total 88.99</strong></td>
+							<td class="text-center"><strong> $88.99</strong></td>
 						</tr>
 						<tr>
 
 						</tr>
 					</tfoot>
+					</div>
+    
 				</table>
 				<a href="#" class="btn btn-warning"><i class="fa fa-shopping-cart"></i> Checkout</a>
 				<a href="#" class="btn btn-warning"><i class="fa fa-upload"></i> Upload</a>
