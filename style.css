@@ -4,3 +4,12 @@
 		height: 150px;
 	 background: linear-gradient(yellow, yellow);}
 
+	footer-shadow  .p1 {
+    text-shadow: 2px 2px #FF0000;
+}
+
+ thead {
+	     font-family: 'Pangolin', cursive;
+	 
+	 
+ }
