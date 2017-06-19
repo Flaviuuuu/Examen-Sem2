@@ -2,7 +2,7 @@
  #grad1 {
 	 
 		height: 150px;
-	 background: linear-gradient(yellow, yellow);}
+	 background: linear-gradient(yellow, white);}
 
 	footer-shadow  .p1 {
     text-shadow: 2px 2px #FF0000;
@@ -12,4 +12,9 @@
 	     font-family: 'Pangolin', cursive;
 	 
 	 
+ }
+
+ .center .p {
+	 
+	 text-align:center;
  }
